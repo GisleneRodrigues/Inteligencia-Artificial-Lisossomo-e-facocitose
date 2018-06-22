@@ -1,0 +1,22 @@
+.container
+    display flex 
+    flex-direction columns 
+    margin 0 auto
+    padding 1em 0 
+    width 95%
+@media(min-width: desktop)
+    .container
+        flex-direction row
+        [class*="col-"]
+            padding 1.1em 
+        .col-12 
+            width 100%            
+//Sections
+.main 
+    display flex 
+    flex-direction columns 
+@media(min-width: desktop)
+    .main
+        flex-direction row-reverse 
+        .content
+            width 85%                

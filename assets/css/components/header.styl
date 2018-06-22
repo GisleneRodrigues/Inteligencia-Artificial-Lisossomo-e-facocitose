@@ -1,0 +1,27 @@
+.header
+    background-color #2196f3
+    display flex
+    flex-direction column
+    padding 1em 0.5em
+@media(min-width: desktop)
+    .header
+        flex-direction row
+        .actions ul a, .logo h1 
+            color #fff 
+        .logo
+            margin-left 3.5% 
+            width 40%     
+            h1 
+                font-family fira
+                text-transform uppercase    
+        .actions 
+            margin-left 3.5em
+            width 53%
+            ul
+                a
+                 display inline-block
+                 font-family roboto
+                 padding 0.3em 0.8em 0 0.8em
+                 &:hover 
+                     border-bottom 0.2em solid #fff
+                     transition 3s linear border-bottom   

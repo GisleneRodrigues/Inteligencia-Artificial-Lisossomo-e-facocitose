@@ -1,0 +1,22 @@
+{
+  "name": "celulaslisossomos",
+  "version": "1.0.0",
+  "description": "simulação de celulas lisossomos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GisleneRodrigues/Inteligencia-Artificial-Lisossomo-e-facocitose.git"
+  },
+  "author": "Andre Rodrigues e Gislene Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GisleneRodrigues/Inteligencia-Artificial-Lisossomo-e-facocitose/issues"
+  },
+  "homepage": "https://github.com/GisleneRodrigues/Inteligencia-Artificial-Lisossomo-e-facocitose#readme",
+  "dependencies": {
+    "aframe": "^0.8.2"
+  }
+}
